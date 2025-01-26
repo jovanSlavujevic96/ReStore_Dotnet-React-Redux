@@ -13,3 +13,10 @@ to run web API:
 1. navigate to API: `$ cd API/`
 2. `$ dotnet run`
 3. dotnet will return something like: `Now listening on: http://localhost:5113`
+
+for hot reload enable:
+`$ dotnet watch`
+
+if there are any issues with https certificates:
+1. `$ dotnet dev-certs https --clean`
+2. `$ dotnet dev-certs https --trust`
