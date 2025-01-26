@@ -20,3 +20,12 @@ for hot reload enable:
 if there are any issues with https certificates:
 1. `$ dotnet dev-certs https --clean`
 2. `$ dotnet dev-certs https --trust`
+
+to manage migrations you need to install `dotnef-ef`:
+`$ dotnet tool install --global dotnet-ef`
+
+to add migration:
+`$ dotnet ef migrations add InitialCreate -o Data/Migrations`
+
+to apply migration:
+`$ dotnet ef database update`
