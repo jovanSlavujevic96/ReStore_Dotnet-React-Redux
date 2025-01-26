@@ -29,3 +29,6 @@ to add migration:
 
 to apply migration:
 `$ dotnet ef database update`
+
+to drop/remove a database
+`$ dotnet ef database drop`
