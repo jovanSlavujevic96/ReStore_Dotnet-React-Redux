@@ -7,3 +7,6 @@ use vite (veet) to create react project by following:
 
 to update react (i.e. to v19): \
 `$ npm install react@19 react-dom@19`
+
+to run react: \
+`$ npm run dev`
