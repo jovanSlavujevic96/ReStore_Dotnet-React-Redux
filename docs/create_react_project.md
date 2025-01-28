@@ -10,3 +10,6 @@ to update react (i.e. to v19): \
 
 to run react: \
 `$ npm run dev`
+
+to have https certs on your dev env (`-D`) you need to install the following: \
+`$ npm install vite-plugin-mkcert -D`
